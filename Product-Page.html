@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="product-page-styles.css" />
+    <title>Band Saw Machines</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-slider">
+        <button class="arrow left-arrow" onclick="previousMedia()">
+          &#10094;
+        </button>
+        <video
+          id="video"
+          class="media"
+          controls
+          style="display: none"
+          onloadstart="this.volume=0.2"
+        ></video>
+        <div id="playButton" class="play-button" style="display: none">
+          &#9658;
+        </div>
+        <img
+          id="image"
+          class="media"
+          src=""
+          alt="Band Saw Machine"
+          style="display: none"
+        />
+        <button class="arrow right-arrow" onclick="nextMedia()">
+          &#10095;
+        </button>
+      </div>
+
+      <div class="info-grid">
+        <div class="model">HA-38SA</div>
+        <div>Cutting capacity(mm)</div>
+        <div>(W)400*(H)380</div>
+        <div>Blade speed(m/min)</div>
+        <div>21/36/46/68</div>
+        <div>Saw bade specific(mm)</div>
+        <div>4115*34*1.1</div>
+        <div>Voltage</div>
+        <div>380V 50Hz 3P</div>
+        <div>Main motor(kw)</div>
+        <div>3</div>
+        <div>Hydraulic motor(kw)</div>
+        <div>0.55</div>
+        <div>Cooling motor(kw)</div>
+        <div>0.04</div>
+        <div>Saw blade tension way</div>
+        <div>Manual</div>
+        <div>Chip remove way</div>
+        <div>Manual</div>
+        <div>Vise clamp way</div>
+        <div>Hydraulic</div>
+        <div>Hydraulic oil tank</div>
+        <div>40L</div>
+        <div>Machine weight(kg)</div>
+        <div>1200</div>
+        <div>Machine size(L*W*H)</div>
+        <div>2100*1300*1450mm</div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>
+          1/49 moo 3 kingkaew road rachatewa bangplee samutprakarn, Thailand,
+          10540 Thailand
+        </p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <p>cfengwei824@gmail.com</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>065 891 6216</p>
+      </div>
+    </div>
+    <script src="./product-page-script.js"></script>
+  </body>
+</html>
