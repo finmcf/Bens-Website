@@ -1,15 +1,15 @@
 const mediaList = [
-  { type: "video", src: "./HA+-28SA/Video HA+-28SA.mp4" },
-  { type: "image", src: "./HA+-28SA/1.jpg" },
-  { type: "image", src: "./HA+-28SA/2.jpg" },
-  { type: "image", src: "./HA+-28SA/3.jpg" },
-  { type: "image", src: "./HA+-28SA/4.jpg" },
-  { type: "image", src: "./HA+-28SA/5.jpg" },
-  { type: "image", src: "./HA+-28SA/6.jpg" },
-  { type: "image", src: "./HA+-28SA/7.jpg" },
-  { type: "image", src: "./HA+-28SA/8.jpg" },
-  { type: "image", src: "./HA+-28SA/9.jpg" },
-  { type: "image", src: "./HA+-28SA/10.jpg" },
+  { type: "video", src: "./bandsaw-machines/HA+-28SA/Video HA+-28SA.mp4" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/1.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/2.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/3.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/4.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/5.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/6.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/7.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/8.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/9.jpg" },
+  { type: "image", src: "./bandsaw-machines/HA+-28SA/10.jpg" },
 ];
 
 let currentIndex = 0;
